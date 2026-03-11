@@ -7,7 +7,7 @@
   ],
   "funcionts": {
     "api/server.mjs": {
-      "includesFiles": "dist/mitocommerce/**"
+      "includeFiles": "dist/mitocommerce/**"
     }
   }
 }
