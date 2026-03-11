@@ -1,3 +1,3 @@
-import { reqHandler } from './dist/mitocommerce/server/server.mjs';
+import { reqHandler } from '../dist/mitocommerce/server/server.mjs';
 
 export default reqHandler;
