@@ -21,7 +21,7 @@ app.use(express.json());
 const ai = genkit({
   plugins: [
     googleAI({
-      apiKey: environment.apiKeyGoogle,
+      apiKey: environment.googleAIKey,
     }),
   ],
 });
