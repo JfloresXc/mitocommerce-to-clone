@@ -1,0 +1,13 @@
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/api/server"
+    }
+  ],
+  "funcionts": {
+    "api/server.mjs": {
+      "includesFiles": "dist/mitocommerce/**"
+    }
+  }
+}
